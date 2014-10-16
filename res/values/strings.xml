@@ -7,5 +7,7 @@
     <string name="usu">Usuario:</string>
     <string name="pass">"Contraseña: "</string>
     <string name="aceptar">Aceptar</string>
+    <string name="text_titulo_acceso_ok">OK</string>
+    <string name="editTextLogin"></string>
 
 </resources>

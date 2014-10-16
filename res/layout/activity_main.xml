@@ -20,23 +20,23 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText1"
-        android:layout_below="@+id/editText1"
+        android:layout_alignLeft="@+id/editTextLogin"
+        android:layout_below="@+id/editTextLogin"
         android:layout_marginTop="15dp"
         android:text="@string/pass" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/buttonAcceder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/editText2"
-        android:layout_below="@+id/editText2"
+        android:layout_alignRight="@+id/editTextPassword"
+        android:layout_below="@+id/editTextPassword"
         android:layout_marginTop="19dp"
-        android:onClick="validarUserLogin"
+        android:onClick="onClickButtonAcceder"
         android:text="@string/aceptar" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView2"
@@ -45,7 +45,7 @@
         android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/editTextLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
