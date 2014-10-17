@@ -9,5 +9,8 @@
     <string name="aceptar">Aceptar</string>
     <string name="text_titulo_acceso_ok">OK</string>
     <string name="editTextLogin"></string>
+    <string name="error_acceso">Acceso denegado</string>
+    <string name="voler">Loguearse</string>
+    <string name="log_out">Log out</string>
 
 </resources>

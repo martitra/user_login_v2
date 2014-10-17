@@ -2,35 +2,42 @@ package com.example.user_login;
 
 import java.io.Serializable;
 
-public class UserLogin implements Serializable{
-	
+public class UserLogin implements Serializable {
+
 	private String login;
 	private String password;
-	
+
 	/**
 	 * 
 	 * @param login
 	 * @param password
 	 */
-	public UserLogin(String login, String password) throws UserLoginException {
-		if(validarUserLogin(login,password)==false){
+	public UserLogin(String login, String password) throws UserLoginException,UserLoginSintaxException {
+		if(!validarSintxisUserLogin(login,password)){
+			throw new UserLoginSintaxException();
+		}
+		if (validarUserLogin(login, password) == false) {
 			throw new UserLoginException();
 		}
 		this.login = login;
 		this.password = password;
 	}
-	
+
+	private static boolean validarSintxisUserLogin(String login, String password) {
+		return (!login.isEmpty() && !password.isEmpty());
+	}
+
 	/**
 	 * 
 	 * @param login
 	 * @param password
 	 * @return
 	 */
-	private static boolean validarUserLogin(String login, String password){
-		
-		if(login.equals("Admin") && password.equals("1234")){
+	private static boolean validarUserLogin(String login, String password) {
+
+		if (login.equals("Admin") && password.equals("1234")) {
 			return true;
-		}else{
+		} else {
 			return false;
 		}
 	}
@@ -43,14 +50,14 @@ public class UserLogin implements Serializable{
 		return login;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
 	public String toString() {
 		return "UserLogin [login=" + login + ", password=" + password + "]";
 	}
-	
-	
-	
+
 }
