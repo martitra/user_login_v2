@@ -9,11 +9,20 @@
     <string name="aceptar">Aceptar</string>
     <string name="text_titulo_acceso_ok">OK</string>
     <string name="editTextLogin"></string>
-<<<<<<< HEAD
+
     <string name="error_acceso">Acceso denegado</string>
     <string name="voler">Loguearse</string>
     <string name="log_out">Log out</string>
-=======
->>>>>>> branch 'master' of https://github.com/martitra/user_login_v2.git
 
+
+
+    <string name="acceso_erroneo">Acceso Erróneo</string>
+
+
+
+    <string name="loguearse">Loguearse</string>
+
+
+
+    <string name="logout">Logout</string>
 </resources>

@@ -14,15 +14,12 @@
         android:id="@+id/textViewUserName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-<<<<<<< HEAD
 
      <Button
          android:id="@+id/button1"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:onClick="onClickButtonInicio"
-         android:text="@string/log_out" />
-=======
->>>>>>> branch 'master' of https://github.com/martitra/user_login_v2.git
+         android:text="logout" />
     
 </LinearLayout>
