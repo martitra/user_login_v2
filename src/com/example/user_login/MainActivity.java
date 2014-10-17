@@ -1,6 +1,7 @@
 package com.example.user_login;
 
 import android.support.v7.app.ActionBarActivity;
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -37,6 +38,7 @@ public class MainActivity extends ActionBarActivity {
 			this.lanzarAccesoOk();
 		} catch (UserLoginSintaxException e) {// si haces error de sintaxis
 			Log.e(LOGTAG, e.getMessage());
+			this.mensajeOk("Datos incompletos", "Error Datos");
 		} catch (UserLoginException e) {// si el usuario no existe
 			Log.e(LOGTAG, e.getMessage());
 		}
@@ -62,6 +64,18 @@ public class MainActivity extends ActionBarActivity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
+	}
+
+	private void mensajeOk(String texto, String titulo) {// abre una ventana con
+															// el titulo:
+															// mensaje
+		AlertDialog.Builder dialogo = new AlertDialog.Builder(this);
+		dialogo.setTitle(titulo);
+		dialogo.setMessage(texto);
+		dialogo.setPositiveButton("Aceptar", null);
+		dialogo.create();
+		dialogo.show();
+
 	}
 
 	@Override
