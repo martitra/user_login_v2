@@ -1091,6 +1091,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
+<<<<<<< HEAD
         public static final int action_settings=0x7f050044;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
@@ -1260,6 +1261,172 @@ containing a value of this type.
         public static final int text_titulo_acceso_ok=0x7f0a0013;
         public static final int usu=0x7f0a0010;
         public static final int voler=0x7f0a0016;
+=======
+        public static final int action_settings=0x7f050043;
+        public static final int activity_chooser_view_content=0x7f050025;
+        public static final int always=0x7f05000b;
+        public static final int beginning=0x7f050011;
+        public static final int buttonAcceder=0x7f050041;
+        public static final int checkbox=0x7f05002d;
+        public static final int collapseActionView=0x7f05000d;
+        public static final int default_activity_button=0x7f050028;
+        public static final int dialog=0x7f05000e;
+        public static final int disableHome=0x7f050008;
+        public static final int dropdown=0x7f05000f;
+        public static final int editTextLogin=0x7f050040;
+        public static final int editTextPassword=0x7f050042;
+        public static final int edit_query=0x7f050030;
+        public static final int end=0x7f050013;
+        public static final int expand_activities_button=0x7f050026;
+        public static final int expanded_menu=0x7f05002c;
+        public static final int home=0x7f050014;
+        public static final int homeAsUp=0x7f050005;
+        public static final int icon=0x7f05002a;
+        public static final int ifRoom=0x7f05000a;
+        public static final int image=0x7f050027;
+        public static final int listMode=0x7f050001;
+        public static final int list_item=0x7f050029;
+        public static final int middle=0x7f050012;
+        public static final int never=0x7f050009;
+        public static final int none=0x7f050010;
+        public static final int normal=0x7f050000;
+        public static final int progress_circular=0x7f050018;
+        public static final int progress_horizontal=0x7f050019;
+        public static final int radio=0x7f05002f;
+        public static final int search_badge=0x7f050032;
+        public static final int search_bar=0x7f050031;
+        public static final int search_button=0x7f050033;
+        public static final int search_close_btn=0x7f050038;
+        public static final int search_edit_frame=0x7f050034;
+        public static final int search_go_btn=0x7f05003a;
+        public static final int search_mag_icon=0x7f050035;
+        public static final int search_plate=0x7f050036;
+        public static final int search_src_text=0x7f050037;
+        public static final int search_voice_btn=0x7f05003b;
+        public static final int shortcut=0x7f05002e;
+        public static final int showCustom=0x7f050007;
+        public static final int showHome=0x7f050004;
+        public static final int showTitle=0x7f050006;
+        public static final int split_action_bar=0x7f05001e;
+        public static final int submit_area=0x7f050039;
+        public static final int tabMode=0x7f050002;
+        public static final int textView1=0x7f05003e;
+        public static final int textView2=0x7f05003f;
+        public static final int textViewTituloAccesoOK=0x7f05003c;
+        public static final int textViewUserName=0x7f05003d;
+        public static final int title=0x7f05002b;
+        public static final int top_action_bar=0x7f050020;
+        public static final int up=0x7f050021;
+        public static final int useLogo=0x7f050003;
+        public static final int withText=0x7f05000c;
+    }
+    public static final class integer {
+        /**  The maximum number of action buttons that should be permitted within
+         an action bar/action mode. This will be used to determine how many
+         showAsAction="ifRoom" items can fit. "always" items can override this. 
+ The maximum number of action buttons that should be permitted within
+     an action bar/action mode. This will be used to determine how many
+     showAsAction="ifRoom" items can fit. "always" items can override this. 
+ The maximum number of action buttons that should be permitted within
+         an action bar/action mode. This will be used to determine how many
+         showAsAction="ifRoom" items can fit. "always" items can override this. 
+ The maximum number of action buttons that should be permitted within
+         an action bar/action mode. This will be used to determine how many
+         showAsAction="ifRoom" items can fit. "always" items can override this. 
+ The maximum number of action buttons that should be permitted within
+         an action bar/action mode. This will be used to determine how many
+         showAsAction="ifRoom" items can fit. "always" items can override this. 
+ The maximum number of action buttons that should be permitted within
+         an action bar/action mode. This will be used to determine how many
+         showAsAction="ifRoom" items can fit. "always" items can override this. 
+ The maximum number of action buttons that should be permitted within
+         an action bar/action mode. This will be used to determine how many
+         showAsAction="ifRoom" items can fit. "always" items can override this. 
+         */
+        public static final int abc_max_action_buttons=0x7f090000;
+    }
+    public static final class layout {
+        public static final int abc_action_bar_decor=0x7f030000;
+        public static final int abc_action_bar_decor_include=0x7f030001;
+        public static final int abc_action_bar_decor_overlay=0x7f030002;
+        public static final int abc_action_bar_home=0x7f030003;
+        public static final int abc_action_bar_tab=0x7f030004;
+        public static final int abc_action_bar_tabbar=0x7f030005;
+        public static final int abc_action_bar_title_item=0x7f030006;
+        public static final int abc_action_bar_view_list_nav_layout=0x7f030007;
+        public static final int abc_action_menu_item_layout=0x7f030008;
+        public static final int abc_action_menu_layout=0x7f030009;
+        public static final int abc_action_mode_bar=0x7f03000a;
+        public static final int abc_action_mode_close_item=0x7f03000b;
+        public static final int abc_activity_chooser_view=0x7f03000c;
+        public static final int abc_activity_chooser_view_include=0x7f03000d;
+        public static final int abc_activity_chooser_view_list_item=0x7f03000e;
+        public static final int abc_expanded_menu_layout=0x7f03000f;
+        public static final int abc_list_menu_item_checkbox=0x7f030010;
+        public static final int abc_list_menu_item_icon=0x7f030011;
+        public static final int abc_list_menu_item_layout=0x7f030012;
+        public static final int abc_list_menu_item_radio=0x7f030013;
+        public static final int abc_popup_menu_item_layout=0x7f030014;
+        public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
+        public static final int abc_search_view=0x7f030016;
+        public static final int abc_simple_decor=0x7f030017;
+        public static final int activity_acceso_ok=0x7f030018;
+        public static final int activity_main=0x7f030019;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001a;
+    }
+    public static final class menu {
+        public static final int main=0x7f0c0000;
+    }
+    public static final class string {
+        /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
+         */
+        public static final int abc_action_bar_home_description=0x7f0a0001;
+        /**  Content description for the action bar "up" affordance. [CHAR LIMIT=NONE] 
+         */
+        public static final int abc_action_bar_up_description=0x7f0a0002;
+        /**  Content description for the action menu overflow button. [CHAR LIMIT=NONE] 
+         */
+        public static final int abc_action_menu_overflow_description=0x7f0a0003;
+        /**  Label for the "Done" button on the far left of action mode toolbars. 
+         */
+        public static final int abc_action_mode_done=0x7f0a0000;
+        /**  Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] 
+         */
+        public static final int abc_activity_chooser_view_see_all=0x7f0a000a;
+        /**  ActivityChooserView - accessibility support 
+ Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] 
+         */
+        public static final int abc_activitychooserview_choose_application=0x7f0a0009;
+        /**  SearchView accessibility description for clear button [CHAR LIMIT=NONE] 
+         */
+        public static final int abc_searchview_description_clear=0x7f0a0006;
+        /**  SearchView accessibility description for search text field [CHAR LIMIT=NONE] 
+         */
+        public static final int abc_searchview_description_query=0x7f0a0005;
+        /**  SearchView accessibility description for search button [CHAR LIMIT=NONE] 
+         */
+        public static final int abc_searchview_description_search=0x7f0a0004;
+        /**  SearchView accessibility description for submit button [CHAR LIMIT=NONE] 
+         */
+        public static final int abc_searchview_description_submit=0x7f0a0007;
+        /**  SearchView accessibility description for voice button [CHAR LIMIT=NONE] 
+         */
+        public static final int abc_searchview_description_voice=0x7f0a0008;
+        /**  Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
+         */
+        public static final int abc_shareactionprovider_share_with=0x7f0a000c;
+        /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
+         */
+        public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
+        public static final int aceptar=0x7f0a0012;
+        public static final int action_settings=0x7f0a000f;
+        public static final int app_name=0x7f0a000d;
+        public static final int editTextLogin=0x7f0a0014;
+        public static final int hello_world=0x7f0a000e;
+        public static final int pass=0x7f0a0011;
+        public static final int text_titulo_acceso_ok=0x7f0a0013;
+        public static final int usu=0x7f0a0010;
+>>>>>>> branch 'master' of https://github.com/martitra/user_login_v2.git
     }
     public static final class style {
         /** 
