@@ -33,7 +33,7 @@ public class UserLoginAccesoOkActivity extends Activity {
 		textViewUserName.setText(userLogin.getLogin());
 	}
 
-	private void onClickButtonLogout(View v) {
+	public void onClickButtonLogout(View v) {
 		confirmar("Confirmar logout?","Confirmar");
 	}
 
@@ -53,7 +53,7 @@ public class UserLoginAccesoOkActivity extends Activity {
 
 					private void confirmar() {
 						// TODO Auto-generated method stub
-						
+						finish();
 					}
 
 				});
@@ -68,9 +68,10 @@ public class UserLoginAccesoOkActivity extends Activity {
 
 					private void cancelar() {
 						// TODO Auto-generated method stub
-						
+						//hacer toast para poner opración cancelada
 					}
 				});
+		dialogConfirmar.show();
 	}
 
 	/*
