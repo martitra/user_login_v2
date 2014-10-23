@@ -71,7 +71,7 @@ public class UserLoginAccesoOkActivity extends Activity {
 						//hacer toast para poner opración cancelada
 					}
 				});
-		dialogConfirmar.show();
+		dialogConfirmar.show();//mostrar ventana de alert
 	}
 
 	/*
